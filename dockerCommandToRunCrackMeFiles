@@ -1,0 +1,4 @@
+#This is the command
+
+docker run -v $(pwd):/binaries -w /binaries -it --rm i386/ubuntu:bionic ./crackme0x00
+
